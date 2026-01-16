@@ -2,7 +2,7 @@ export const KnowledgeBase = {
   about: {
     text: `A millrace is the engineered channel that directs river water to turn mill wheels. It transforms natural flow into useful work.
   
-We're based in Manotick, Ontario, right next to the Long Island Locks on the Rideau Canal—where precision engineering has been creating power for nearly two centuries.`,
+We're based in Manotick, Ontario, right next to the Long Island Locks on the Rideau Canal—where precision engineering has been creating productivity for nearly two centuries.`,
     artifact: { type: 'map', lat: 45.2268, lng: -75.6831, label: 'Manotick Lock Station' },
     physics: 'active'
   },
