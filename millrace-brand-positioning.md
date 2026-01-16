@@ -33,7 +33,7 @@ A millrace is the engineered channel that directs river water to turn mill wheel
 
 We're named The Millrace Co. because that's what we do. We help Canadian tech founders figure out what to build, then we build it. Not strategy decks that sit in a drawer. Not endless discovery phases. Working software. Useful tools. Things that solve actual problems.
 
-We're based in Manotick, Ontario, right next to the Long Island Locks on the Rideau Canal—where this kind of precision engineering has been creating productive power for nearly two centuries.
+We're based in Manotick, Ontario, right next to Watson's Mill and the Long Island Locks on the Rideau Canal—where this kind of precision engineering has been creating productive power for nearly two centuries.
 
 We're builders who think strategically, not strategists who happen to know some technical people. There's a difference.
 

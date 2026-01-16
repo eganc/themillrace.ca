@@ -2,8 +2,8 @@ export const KnowledgeBase = {
   about: {
     text: `A millrace is the engineered channel that directs river water to turn mill wheels. It transforms natural flow into useful work.
   
-We're based in Manotick, Ontario, right next to the Long Island Locks on the Rideau Canal—where precision engineering has been creating productivity for nearly two centuries.`,
-    artifact: { type: 'map', lat: 45.2268, lng: -75.6831, label: 'Manotick Lock Station' },
+We're based in Manotick, Ontario, right next to Watson's Mill and the Long Island Locks—where precision engineering has been creating productive power for nearly two centuries.`,
+    artifact: { type: 'map', lat: 45.2268, lng: -75.6831, label: 'Watson\'s Mill & Locks' },
     physics: 'active'
   },
 
@@ -35,7 +35,7 @@ We avoid jargon moats and strategy decks that sit in drawers. We are builders wh
   },
 
   tech: {
-    text: `Our stack is focused on velocity and maintenance: React, Node.js, AI-augmented development, and tailored cloud infrastructure.`,
+    text: `Our stack is focused on velocity and maintenance: React, Node.js, and AI-augmented workflows. You are looking at it: This interface is built on Vercel and Cloudflare. We build on modern, scalable foundations.`,
     artifact: { type: 'stats', labels: ['Velocity', 'Stability', 'Precision'], values: [98, 95, 100] },
     physics: 'rapid'
   },
@@ -49,6 +49,12 @@ We avoid jargon moats and strategy decks that sit in drawers. We are builders wh
       status: 'OPEN FOR CONTRACTS'
     },
     physics: 'active'
+  },
+
+  source: {
+    text: `This system (v1.0) is a React application running on Vercel, protected by Cloudflare, and powered by the Millrace Oracle.`,
+    artifact: { type: 'tag', label: 'BUILD', value: 'v1.0.4' },
+    physics: 'calm'
   }
 };
 
@@ -61,6 +67,7 @@ export const findAnswer = (query) => {
   if (q.includes('phil') || q.includes('why') || q.includes('mission') || q.includes('useful')) return KnowledgeBase.philosophy;
   if (q.includes('egan') || q.includes('founder') || q.includes('team')) return KnowledgeBase.founder;
   if (q.includes('tech') || q.includes('stack') || q.includes('how')) return KnowledgeBase.tech;
+  if (q.includes('source') || q.includes('code') || q.includes('repo')) return KnowledgeBase.source;
   if (q.includes('location') || q.includes('where')) return KnowledgeBase.about;
 
   if (q === 'help' || q === '?') {
