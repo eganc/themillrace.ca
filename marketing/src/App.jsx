@@ -184,7 +184,6 @@ function App() {
             placeholder=""
             autoFocus
           />
-          {!query && <div className="cursor" />}
         </div>
 
         <div className="response-area">

@@ -103,6 +103,7 @@ body {
   font-size: inherit;
   flex: 1;
   outline: none;
+  caret-color: var(--color-accent);
 }
 
 .cursor {
@@ -387,6 +388,7 @@ body {
     padding: 1rem;
   }
 }
+
 /* --- Contact Artifact --- */
 .contact-artifact {
   display: flex;
@@ -458,9 +460,17 @@ body {
 }
 
 @keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.4; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 /* --- Command Echo --- */
